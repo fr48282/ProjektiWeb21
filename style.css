@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+.header {
+    display: inline;
+}
+ .header ul   {
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+
+ }
+ .logo {
+    display: inline;
+ 
+   font-size: 20px;
+ }
+
+ .header ul li {
+    padding-left: 60px; 
+ }
+.header ul li:hover {
+    color: indigo;
+   transform: scale(1.2);
+   transition:  transform 0.8s;
+}
+.header-txt {
+    margin-top: 16%;
+    margin-bottom: 16%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* end of header */
+.content {
+    background-image: url(../RestaurantProject/img/photo2.jpeg) ;
+    -webkit-filter: sepia(33%);
+}
+.content p {
+    height: 20%;
+}
