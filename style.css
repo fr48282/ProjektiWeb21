@@ -23,12 +23,17 @@
  }
  .logo {
     display: inline;
- 
+    font-family: 'Poppins', sans-serif;
    font-size: 20px;
  }
 
  .links ul li {
     padding-left: 105px; 
+    list-style-type: none;
+ }
+ .links ul li a {
+ text-decoration: none;
+    list-style-type: none;
  }
 .links ul li:hover {
     color: indigo;
@@ -55,7 +60,7 @@
     background-size: cover;
     background-position: center;
     padding: 16% ;
-    min-height: 500px;
+    min-height: 100px;
     background-attachment: fixed;
     background-repeat: no-repeat;
 
@@ -116,7 +121,7 @@
 .footer {
     display: flex;
     flex-direction: row;
-    background-color: palegoldenrod;
+    background-color: rgba(238, 232, 170, 0.41);
     margin-top: 36px;
 }
 .footer li {
@@ -127,8 +132,61 @@
 .items {
     display: flex;
     flex-direction: row;
-
+    margin-left: 30px;
+}
+.items :nth-child(3) {
+    display: flex;
 }
 .item {
-    margin: 60%;
+    margin: 26% 40%;
 }
+.item a i  {
+    margin-right: 18px;
+    font-size: 32px;
+}
+
+/* Start of about page */
+.contentAbout {
+    padding-top: 10%;
+    text-align: center;
+}
+.contentAbout p {
+    font-size: 20px;
+    margin-bottom: 32px;
+    font-family: 'Poppins', sans-serif;
+}
+.contentAbout h2 {
+    color: #1e2528;
+    font-size: 42px;
+    margin-bottom: 32px;
+    font-family: 'Poppins', sans-serif;
+}
+.tagline{
+    color: #888;
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: .8;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+    margin-top: 10px;
+}
+.abouttxt{
+
+    color: #888;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contentAbout a {
+    padding: 20px;
+background-color: aliceblue;
+border-radius: 14px;
+font-family: 'Poppins', sans-serif;
+}
+.breakAbout {
+    margin-bottom: 14%;
+}
+/* end of about paga */
