@@ -191,3 +191,76 @@ font-family: 'Poppins', sans-serif;
     margin-bottom: 14%;
 }
 /* end of about paga */
+
+
+/* login page */
+#formulari {
+    padding-top: 10%;
+    margin-bottom: 9%;
+}
+
+#formulari h2 {
+    color: #1e2528;
+    font-size: 42px;
+    margin-bottom: 32px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+/* border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: 1px solid; */
+
+
+form {
+ text-align: center;
+
+}
+input {
+    font-family: 'Poppins', sans-serif;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid;
+    margin-bottom: 21px;
+    width: 36%;
+}
+.submit {
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 14px;
+    border-bottom: none;
+    font-family: 'Poppins', sans-serif;
+    width: 17%;
+    margin-top: 20px;
+}
+
+/* login page end */
+/* teams page */
+ .teamContent h1 {
+    padding-top: 10%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    border-bottom: solid 1px grey;
+    padding-bottom: 64px;
+} 
+.teams {
+    padding-left: 10%;
+    padding-top: 6%;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px grey;
+    padding-bottom: 64px;
+}
+
+ .team img {
+     width: 40%;
+ }
+ .team h2 {
+    font-family: 'Poppins', sans-serif;
+ }
+ .team p {
+    font-family: 'Poppins', sans-serif;
+ }
+/* teams page end  */

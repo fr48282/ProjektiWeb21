@@ -5,27 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">    
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
+    <div class="links">
+          
+        <ul>
+            <li class="logo">
+                Pa<span>C</span>s
+            <li/>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+           
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="team.html">Team</a>
+            </li>
+            <li>
+                <a  href="login.html">Login</a>
+            </li>
+            <li>
+             <a  href="register.html">Register</a>
+            </li>
+            <li></li>
+        </ul>
+    </div>
     <div id="formulari">
-        <h2>Formulari regjistrimit</h2>
+        <h2>Register Page</h2>
         <form>
             <ul>
-                <li><label>Perdoruesi:</label></li>
-                <li><input type="text" id="userid" size="15"></input></li>
+           
+                <li><input type="text" id="userid" placeholder="User" size="15"></input></li>
              
-                <li><label>Fjalekalimi:</label></li>
-                <li><input type="password" id="password" size="15"></input></li>
+               
+                <li><input type="password" id="password"  placeholder="Password" size="15"></input></li>
 
-                <li><label>Emri dhe Mbiemri:</label></li>
-                <li><input type="text" id="name" size="40"></input></li>
+             
+                <li><input type="text" id="name"  placeholder="Name"  size="40"></input></li>
 
-                <li><label>Email:</label></li>
-                <li><input type="text" id="email" size="40"></input></li>
-                <li><input type="submit" value="Submit" id="BtnSubmit"/> </li>
+              
+                <li><input type="text" id="email" placeholder="Email"  size="40"></input></li>
+                <li><input type="submit" value="Submit"  class="submit"  id="BtnSubmit"/> </li>
             </ul>
         </form>
     </div>
+    <div class="footer" >
+            
+        <div class="items">
+         <div class="item">
+             
+             <li><a>Contact</a></li>
+             <li><a>About</a></li>
+             <li><a>Details</a></li>
+         </div>
+        
+       
+         <div class="item">
+             Located: Pristina, Kosovo
+         </div>
+         <div class="item">
+             <a><i class="fa fa-tumblr" aria-hidden="true"></i></a>
+              <a><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a><i class="fa fa-Facebook" aria-hidden="true"></i></a>
+
+         </div>
+        </div>
+     </div>
 </body>
 </html>
